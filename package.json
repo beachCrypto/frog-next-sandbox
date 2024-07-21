@@ -13,11 +13,11 @@
   "dependencies": {
     "@hono/node-server": "^1.12.0",
     "frog": "latest",
-    "hono": "^4",
-    "next": "14.1.0",
+    "hono": "latest",
+    "next": "latest",
     "patch-package": "^8.0.0",
-    "react": "^18",
-    "react-dom": "^18"
+    "react": "latest",
+    "react-dom": "latest"
   },
   "devDependencies": {
     "@types/node": "^20",
