@@ -1,0 +1,11 @@
+diff --git a/node_modules/frog/vercel/handle.ts b/node_modules/frog/vercel/handle.ts
+index 8b05c06..bf9ed43 100644
+--- a/node_modules/frog/vercel/handle.ts
++++ b/node_modules/frog/vercel/handle.ts
+@@ -1,5 +1,5 @@
+ import type { Schema } from 'hono'
+-import { handle as handle_hono } from 'hono/vercel'
++import { handle as handle_hono } from '@hono/node-server/vercel'
+ 
+ import type { Frog } from '../frog.js'
+ import type { Env } from '../types/env.js'
